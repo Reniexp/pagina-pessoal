@@ -2,6 +2,19 @@ html {
     scroll-behavior: smooth;
 }
 
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 20, 20);
+    grid-area: a;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: -2;
+}
+
 
 
 body{
@@ -15,6 +28,8 @@ h3 {
 }
 
 p {
+    margin: 0px;
+    text-indent: 0px;
     color: black;
 }
 
@@ -25,10 +40,17 @@ p {
     padding: 0 1%;
 }
 
+header {
+    background-color: #ffffff;
+    justify-content: center;
+    grid-area: h;
+}
+
+
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-;
     padding: 16px;
 }
 
@@ -49,3 +71,4 @@ footer {
     padding: 35px 0;
     background-color: rgb(242, 242, 242);
 }
+
