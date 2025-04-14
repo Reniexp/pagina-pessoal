@@ -8,8 +8,8 @@
 html {
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: #1c1c1c;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 body {
@@ -27,9 +27,9 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #1e1e1e;
     padding: 16px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -47,38 +47,38 @@ menu {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #bb86fc;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #0077cc;
+    color: #03dac6;
 }
 
 /* parte do lado com foto e etc */
 aside {
-    background-color: #f9f9f9;
+    background-color: #1e1e1e;
     padding: 20px;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
 
 aside img {
     width: 100%;
+    max-width: 250px; 
     height: auto;
     border-radius: 8px;
 }
 
 aside h2 {
     margin: 15px 0;
-    color: #333;
+    color: #e0e0e0;
 }
 
 aside p a {
-    color: #0077cc;
+    color: #bb86fc;
 }
-
 
 main section {
     margin-bottom: 40px;
@@ -86,32 +86,30 @@ main section {
 
 main h2, main h3 {
     margin-bottom: 15px;
-    color: #1c1c1c;
-    border-bottom: 2px solid #0077cc;
+    color: #e0e0e0;
+    border-bottom: 2px solid #bb86fc;
     padding-bottom: 5px;
 }
 
 main p, main li {
     margin-bottom: 10px;
-    color: #333;
+    color: #e0e0e0;
 }
 
 ul {
     padding-left: 20px;
 }
 
-
 footer {
-    background-color: #f2f2f2;
+    background-color: #1e1e1e;
     padding: 20px;
     text-align: center;
     margin-top: 40px;
 }
 
 footer a {
-    color: #0077cc;
+    color: #bb86fc;
 }
-
 
 @media (max-width: 1024px) {
     .grid-container {
